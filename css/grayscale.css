@@ -3,8 +3,8 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 html {
@@ -63,32 +63,46 @@ a:focus, a:hover {
   font-size: 14px;
   padding: 11px;
   color: white;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 #mainNav .navbar-brand {
   font-weight: 700;
 }
 
-#mainNav a {
+#mainNav a{
+  color: black;
+}
+
+#button2{
+  position: relative;
+  top: 100px; left: 0px;
+}
+
+#navarBar-mainTop{
   color: white;
 }
 
-#mainNav .navbar-nav .nav-item {
+#mainNav .-nav .nav-item{
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  color: white;
 }
 
-#mainNav .navbar-nav .nav-item:hover {
+#mainNav .-nav .nav-item:hover {
   color: fade(white, 80%);
+  /* color: fade(white, 80%); */
+
+  /* color: black; */
   outline: none;
   background-color: transparent;
 }
 
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+#mainNav .-nav .nav-item:active, #mainNav .-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -101,18 +115,27 @@ a:focus, a:hover {
     letter-spacing: 1px;
     border-bottom: none;
     background: transparent;
+    /* color: white; */
   }
-  #mainNav.navbar-shrink {
+
+  #mainNav.navbar-shrink a{
+    color: white;
+  }
+
+#mainNav.navbar-shrink{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background: black;
   }
+
   #mainNav .nav-link.active {
     outline: none;
     background-color: rgba(255, 255, 255, 0.3);
+    color: white;
   }
   #mainNav .nav-link.active:hover {
+    /* color: black; */
     color: white;
   }
 }
@@ -123,18 +146,24 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  color: black;
+  /*background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;*/
+  /* background: url("../img/__IMG_1317_edited.png") no-repeat center right scroll; */
+  background-color: white;
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  /* background-size: 800px auto; */
 }
 
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
+}
+
+#here{
+  background: url("../img/__IMG_1317_edited.png") no-repeat center right scroll;
+  background-size: 800px auto;
 }
 
 .masthead .intro-body .brand-heading {
@@ -151,41 +180,59 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 20px;
+    text-align: left;
+    font-variant: small-caps;
+
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
   }
 }
 
+.container{
+  /* border: 5px solid black; */
+  /*font-variant: small-caps;*/
+}
+
+#myIntro{
+  font-size: 20px;
+  text-align: left;
+  font-variant: small-caps;
+  font-style: normal;
+  font-variant-position: super;
+  color: black;
+  /* background-color: transparent; */
+}
+
 .btn-circle {
   font-size: 26px;
   width: 55px;
   height: 55px;
-  margin-top: 15px;
+  margin-top: 0px;
   line-height: 45px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   border-radius: 100% !important;
   background: transparent;
 }
 
 .btn-circle:focus, .btn-circle:hover {
-  color: white;
+  color: black;
   outline: none;
   background: rgba(255, 255, 255, 0.1);
 }
 
 .content-section {
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 150px;
 }
 
 .download-section {
-  color: white;
+  color: black;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -201,12 +248,17 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
+    padding-top: 10px;
     padding-bottom: 200px;
   }
   #map {
     height: 350px;
   }
+}
+
+#aboutMe{
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 .btn {
@@ -280,4 +332,34 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+/*Navar's photos*/
+
+#photoNavar01{
+  display: block;
+  max-width:500px;
+  max-height:500px;
+  width: auto;
+  height: auto;
+}
+
+.textIntro1{
+  padding-left: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 70px;
+  font-variant: small-caps;
+  font
+
+}
+
+.textIntro2{
+  padding-left: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  font-size: 40px;
+  font-variant:normal;
+  font
+
 }

@@ -132,7 +132,7 @@
 }
 
 #introH1{
-  font-size: 550%;
+  font-size: 350%;
   /*font-weight: normal;*/
   font-weight: bold;
   /*letter-spacing: 6px;*/
@@ -154,6 +154,18 @@
   -webkit-animation-delay: 7s;
 
 }
+
+#about{
+  background: url("../img/__IMG_1317_edited_fadedBlack_2.jpg");
+  /*background-size:     cover;                      /* <------ */*/
+  background-repeat:   no-repeat;
+  background-position: center center;
+  /*background-image: radial-gradient();*/
+  background-size: cover;
+
+
+}
+
 
 .masthead h2 {
   max-width: 20rem;
@@ -324,6 +336,7 @@ body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
   overflow-x: hidden;
+
 
 }
 

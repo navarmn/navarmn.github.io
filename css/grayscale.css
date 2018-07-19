@@ -102,8 +102,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  /*background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 55%, #161616 100%), url("../img/business-computer-connection-450035.jpg");*/
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 55%, #161616 100%), url("../img/foto_Navar.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 55%, #161616 100%), url("../img/business-computer-connection-450035.jpg");
+  /*background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 55%, #161616 100%), url("../img/foto_Navar.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -157,7 +157,7 @@
 }
 
 #about{
-  background: url("../img/business-computer-connection-450035.jpg");
+  background: url("../img/foto_Navar.jpg");
   /*background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   background-position: center center;

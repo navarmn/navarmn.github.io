@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,6 +31,10 @@
   	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
   	<script src="js/waypoints.js" type="text/javascript"></script>
 
+    <!-- Link for Font Awesome Icons -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
   </head>
 
   <body id="page-top">
@@ -48,19 +53,19 @@
               <a class="nav-link js-scroll-trigger" href="#about">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Education</a>
+              <a class="nav-link js-scroll-trigger" href="#education">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Skils</a>
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="pages/portfolio/portfolio.html" target="_blank">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Publications</a>
+              <a class="nav-link js-scroll-trigger" href="#publiciations">Publications</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -70,17 +75,55 @@
           <!-- style="border: solid red 2px;" -->
 
     <!-- Header -->
-    <header id="bgPhoto" class="masthead animated fadeIn">
-      <div class="container d-flex h-75 align-items-center text-left mx-auto">
-        <h1 id="introH1" class="mx-auto my-0 animated fadeInLeft mb-1">A Researcher, Data Scientist and Engineer</h1>
-        <h2 id="introH2" class="text-white-50 mx-auto mt-0 mb-0 animated fadeInRight">Using Machine Learning to solve problems</h2>
+    <!-- <header id="bgPhoto" class="masthead animated fadeIn"> -->
+    <header id="bgPhoto" class="masthead">
+      <div class="row">
+        <!-- <div class="container d-flex h-15 mb-0 'align-items-center' text-left mx-auto"> -->
+          <!-- <div class="col-xl-12 col-lg-12 no-gutters"> -->
+            <!-- <h1 id="introH1" class="mx-auto my-0 mb-0">Researcher, Data Scientist and Engineer </h1> -->
+            <!-- <h2 id="introH2" class="text-white-50 mx-auto mt-0 mb-0">Using Machine Learning to solve problems</h2> -->
+          <!-- </div> -->
 
-        <!-- <div class="mx-auto text-center"> -->
+          <!-- <div class="col-xl-6 col-lg-6 no-gutters">
+            <h2 id="introH2" class="text-white-50 mx-auto mt-0 mb-0 animated fadeInRight">Using Machine Learning to solve problems</h2>
+          </div> -->
         <!-- </div> -->
+      <!-- </div> -->
+
+
+      <div class="cardIntro container align-items-center text-center text-white animated fadeIn">
+        <img id="introPhoto" class="img-fluid rounded-circle mt-0 mb-5 mb-lg-0" src="img/__IMG_1316_edited_resized_cropped.png" alt="">
+        <h1 class="mb-0"> Navar Nascimento</h1>
+        <h2 class="text-white-50 ">Researcher, Data Scientist and Engineer</h2>
+
+        <p class='mt-3 mb-2'>
+          <a class="mt-3 mb-5"  target="_blank" data-toggle="tooltip" data-placement="bottom" title="linkedin.com/in/navarmn/"
+              href="https://linkedin.com/in/navarmn/"> <i class="fab fa-linkedin"></i>
+
+          <a class="mt-3 mb-5" target="_blank" data-toggle="tooltip" data-placement="bottom" title="github.com/navarmn"
+              href="https://github.com/navarmn"> <i class="fab fa-github"></i>
+
+          <a class="mt-3 mb-5" target="_blank" data-toggle="tooltip" data-placement="bottom" title="twitter.com/navarmn"
+            href="https://twitter.com/navarmn"> <i class="fab fa-twitter-square"></i>
+
+          <a class="mt-3 mb-5" target="_blank" data-toggle="tooltip" data-placement="bottom" title="lattes.cnpq.br/5138926459515902"
+              href="http://lattes.cnpq.br/5138926459515902"> <i class="fas fa-eye"></i>
+
+          <a class="mt-3 mb-5" target="_blank" data-toggle="tooltip" data-placement="bottom" title="lattes.cnpq.br/5138926459515902"
+              href="https://www.researchgate.net/profile/Navar_Nascimento"> <i class="fab fa-researchgate"></i>
+
+          <a class="mt-3 mb-5" data-toggle="tooltip" data-placement="bottom" title="navarmn@gmail.com"
+            href="mailto:navarmn@gmail.com"> <i class="fas fa-envelope"></i>
+
+       </p>
       </div>
-      <div id="getStarted" class="container text-center mx-auto animated fadeInUp">
+
+      <div id="getStarted" class="container text-center mt-5 animated fadeInUp">
         <a href="#about" class="btn btn-outline-primary js-scroll-trigger">Get Started</a>
       </div>
+
+    </div>
+
     </header>
 
 
@@ -91,11 +134,11 @@
           <!-- <div class="col-lg-8 mx-auto"> -->
           <div class="col-lg-8">
             <h2 class="text-white text-left mb-5">I am a hardworker engineer, with an eager and curiosity to solve any kind of problem that I jump into.</h2>
-            <h4 class="text-white text-left mb-5 text-white">My interests are directed to design applications using machine intelligence and programming.</h4>
-            <p style="font-size: 125%;" class="text-white-50 w-100 mb-5"> As a PhD student, my project is focused in Machine Learning applied to healthcare industry.
-              I have two years experience with Data Science, based in different research projects. Some of my projects are published in
-              importants scientific journals and conferences. I also have 4 year experience in Industry,
-              as a field engineer, focused on maitenance, debugging and troubleshooting.
+            <h4 class="text-white text-left mb-5 text-white">My interests are directed to design applications using machine intelligence and programming. I love science and, think it is a way to archieve this.</h4>
+            <p style="font-size: 125%;" class="text-white-50 w-100 mb-5"> As a <b class="text-white">PhD</b> student, my project is focused in <b class="text-white">Machine Learning</b> applied to healthcare industry.
+              I have two years experience with <b class="text-white">Data Science</b>, based in different research projects. Some of my <b class="text-white">projects</b> are published in
+              <b class="text-white">scientific</b> journals and conferences. My <b class="text-white">mindset</b> was built upon 4 years of experience in Industry,
+              as a field engineer, focused on maintenance, debugging and troubleshooting.
           </div>
         </div>
         <!-- <img src="img/ipad.png" class="img-fluid" alt=""> -->
@@ -103,64 +146,160 @@
       </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <!-- Education Section -->
+    <section id="education" class="projects-section bg-light">
       <div class="container">
-
         <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/business-computer-connection-450035.jpg" alt="">
+        <div class="row align-items-center no-gutters no-gutters mb-4 mb-lg-5" id="education_titles">
+          <div class="col-xl-2 col-lg-7 no-gutters">
+            <!-- <img class="img-fluid mb-3 mb-lg-0" src="img/business-computer-connection-450035.jpg" alt=""> -->
+            <img class="img-fluid rounded-circle mb-0 mb-lg-0" src="img/__IMG_1332_edited_cropped.jpg" alt="">
           </div>
-          <div class="col-xl-4 col-lg-5">
+
+          <div class="col-xl-5 col-lg-5">
+
             <div class="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+              <h4><i class="fas fa-graduation-cap"></i> Academic background</h4>
+              <p> All my post-grad studies are devoted into develop Machine Learning-based solutions to approach different problems.
+                 My Engineering degree was mainly focused on building solid skills to work on field.</p>
+
+               <!-- PHD  -->
+              <h5 id='phd_button' class="btn btn-light" data-toggle="collapse"
+              data-target="#phd_description" aria-expanded="true" aria-controls="phd_description" id="education_phd">
+               <i class="fas fa-user-graduate"></i> PhD in Teleinformatics Engineering</h5>
+
+              <!-- Msc 1  -->
+              <h5 id='msc1_button' class="btn btn-light" data-toggle="collapse" data-target="#msc1_description" aria-expanded="true" aria-controls="msc1_description">
+              <i class="fas fa-user-graduate"></i> MSc in Renewable Energies</h5>
+
+
+             <!-- Msc 2 -->
+              <h5 id='msc2_button' class="btn btn-light" data-toggle="collapse" data-target="#msc2_description" aria-expanded="true" aria-controls="msc2_description">
+              <i class="fas fa-user-graduate"></i> M.Eng. in Aeronautics Engineering</h5>
+
+
+              <!-- Bsc  -->
+              <h5 id='bsc_button' class="btn btn-light" data-toggle="collapse" data-target="#bsc_description" aria-expanded="true" aria-controls="bsc_description">
+              <i class="fas fa-user-graduate"></i> B.Sc. in Mechatronics Engineering</h5>
             </div>
           </div>
-        </div>
 
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
+          <div class="col-xl-5 col-lg-5 mr-0 ml-0" id="education_Descriptions">
+                <div id="phd_description" class="collapse" aria-labelledby="education_phd" data-parent="#education_titles">
+                  </style>
+                 <div class="card-body">
+                   <p> Project: An novel approach for processing ECG signals, to improve medical diagnoses in heart diseases.</p>
+                   <p> This is a high-score graduate program at the Federal University of Ceará, Brazil.
+                      <a href="http://www.ppgeti.ufc.br/index.php/en/">More info.</a> </p>
+                      <p>I just started my PhD and going to finish by 2022.</p>
+                      <p>Keywords: Biomedicine, Signal Processing, ECG, Machine Learning.</p>
+                 </div>
+               </div>
+
+               <div id="msc1_description" class="collapse" aria-labelledby="headingOne" data-parent="#education_titles">
+                <div class="card-body">
+                  <p> Project: Faults Detection and Classification of Short-curcuit faults in Wind Turbine Generators, using Machine Learning.</p>
+                  <p> I've design a wind turbine test-bench and a DAQ system. The turbine was porperly design to insert incipient failures.
+                    A network of sensor's are installed in the setup and being acquired in real time to compose a reference database of Wind Turbine Generator Faults.
+                    This work is held from a solid research group in electrical machines in my <a href='http://ppger.ifce.edu.br/'> institution</a> and
+                    developed in partnership with two laboratories. I've finished this degree in 2018.</p>
+                    <p> <a href="https://github.com/navarmn/Wind_turbine_failure_prediction" class="text-dark"> <i class="fab fa-github"></i> Github Repository </a>
+                        <a href="https://www.youtube.com/watch?v=vvtca7q4y3k" class="text-dark"> <i class="fab fa-youtube"></i> Youtube </a>  </p>
+                    <p> </p>
+                    <p> <a href="http://lapisco.ifce.edu.br/?p=929" class="text-dark">
+                      <img id="lapisco_img" src="icons/lapisco.png" class="img-thumbnail">LAPISCO' Laboratory</a> </p>
+                  <p> Keywords: Predictive Maintenance, Monitoring systems, Neural Networks</p>
                 </div>
               </div>
+
+              <div id="msc2_description" class="collapse" aria-labelledby="headingOne" data-parent="#education_titles">
+               <div class="card-body">
+                 <p> Project: Fault Prognosis in Aircraft Turbofan Engines.</p>
+                 <p> This is a professional master's course, focused in aviation safety. We use a consolidade dataset provided by NASA,
+                    to develop an algorithm to estimate remaining useful life.
+                    <a href="http://www.aer.ita.br/node/512">More info.</a> </p>
+               </div>
+             </div>
+
+              <div id="bsc_description" class="collapse" aria-labelledby="headingOne" data-parent="#education_titles">
+               <div class="card-body">
+                 <p> During my period on scholl I have had experience in small, medium and big Industries, of different types.</p>
+                 <p> I also worked as a field Engineering department in
+                    a world-wide elevators company and have experience in problem analysis and providing technical support.  </p>
+               </div>
+             </div>
+          </div>
+
+        </div>
+      </section>
+
+    <!-- Projects Section -->
+    <section id="skills" class="projects-section bg-light">
+      <div class="container">
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6 text-center">
+            <!-- <img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
+            <h4 class="mt-4"> <i class="fas fa-chalkboard-teacher"></i> Skillset </h4>
+            <div class="container text-left">
+              <h5 data-toggle="tooltip" data-placement="top"><i class="fas fa-check"></i> Problem solving</h5>
+              <h5><i class="fas fa-check"></i> Methodology</h5>
+              <h5><i class="fas fa-check"></i> Results-driven</h5>
+              <h5><i class="fas fa-check"></i> Data analysis and visualization</h5>
+              <h5><i class="fas fa-check"></i> Machine learning</h5>
+            </div>
+          </div>
+
+          <div class="bg-black col-lg-6 text-left">
+            <!-- <img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
+            <h4 class="text-white mt-4 ml-4"> <i class="fas fa-book"></i> Knowledges </h4>
+            <div class="container text-left ml-2">
+              <h5 class="text-white-50"> Neural Networks</h5>
+              <h5 class="text-white-50"> Classification, regression and clustering</h5>
+              <h5 class="text-white-50"> Model selection</h5>
+              <h5 class="text-white-50"> Exploratory visualizations</h5>
+              <hr class="d-none d-lg-block mb-0 ml-0 mt-">
             </div>
           </div>
         </div>
 
         <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <!-- <div class="bg-black col-lg-6 text-center">
+            <h4 class="text-white mt-4 ml-4"> <i class="fas fa-book"></i> Knowledges </h4>
+            <div class="container text-left ml-2">
+              <h5 class="mb-0 text-white-50"> Neural Networks</h5>
+              <h5 class="mb-0 text-white-50"> Classification, regression and clustering</h5>
+              <h5 class="mb-0 text-white-50"> Model selection</h5>
+              <h5 class="mb-0 text-white-50"> Exploratory visualizations</h5>
+            </div>
+          </div> -->
+
+          <div class="bg-black col-lg-6 text-center">
+            <h4 class="mt-4 text-white"> <i class="fas fa-code"></i> Programming </h4>
+            <div class="container text-left">
+              <h5 class="text-white-50"> <i class="fab fa-python"></i> Python</h5>
+              <h5 class="text-white-50"> MATLAB</h5>
+              <h5 class="text-white-50"> <i class="fab fa-html5"></i> Web development</h5>
+            </div>
           </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                </div>
-              </div>
+
+          <div class="col-lg-6 text-center">
+            <!-- <img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
+            <h4 class="mt-4 ml-3 text-left"> <i class="fas fa-toolbox"></i> Tools and Frameworks </h4>
+            <div class="container text-left">
+              <h5><i class="fas fa-wrench"></i> Pandas, numpy and scikitlearn</h5>
+              <h5><i class="fas fa-wrench"></i> Tensorflow, keras</h5>
+              <h5><i class="fas fa-wrench"></i> Django</h5>
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- Signup Section -->
-    <section id="signup" class="signup-section">
+    <!-- <section id="signup" class="signup-section">
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -176,71 +315,67 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black">
+
+    <div id="container-background">
+
+    <section id="contact" class="contact-section bg-black">
       <div class="container">
 
         <div class="row">
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-              </div>
+          <div class="col-xl-5 mb-3 mb-md-0 text-left">
+            <h1 class="text-white text-left">Let me hear from you :)</h1>
+            <div class="container text-left">
+              <p id='contact_email' class="text-white text-center">
+                <i class="fas fa-envelope-open"></i> navarmn@gmail.com
+              </p>
             </div>
           </div>
 
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">
-                  <a href="#">hello@yourdomain.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="col-xl-7 mb-3 mb-md-0 align-items-right">
 
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">+1 (555) 902-8832</div>
-              </div>
+              <div class="container align-items-center" style="align-items: right;">
+                <a href="https://linkedin.com/in/navarmn/" target="_blank">
+                  <button type="button" class="btn btn-light">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                  </button>
+                </a>
+
+                <a href="https://twitter.com/navarmn/" target="_blank">
+                  <button type="button" class="btn btn-light">
+                    <i class="fab fa-twitter"></i> Twitter
+                  </button>
+                </a>
+
+                <a href="http://github.com/navarmn/" target="_blank">
+                  <button type="button" class="btn btn-light">
+                    <i class="fab fa-github"></i> github
+                  </button>
+                </a>
             </div>
           </div>
         </div>
-
-        <div class="social d-flex justify-content-center">
-          <a href="#" class="mx-2">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-
       </div>
+
+      <div class="container text-white-50 mt-5 mb-0 text-center">
+        <p id="footer_Name">Navar Nascimento</p>
+        Webpage developed using <a href="https://startbootstrap.com/template-overviews/grayscale/"> Grayscale theme</a> &copy; 2018
+      </div>
+
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
+    <!-- <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        Copyright &copy; Your Website 2018
+        <p>Navar Nascimento</p>
+        webpage developed using <a href="https://startbootstrap.com/template-overviews/grayscale/"> Grayscale theme</a> &copy; 2018
       </div>
-    </footer>
+    </footer> -->
+
+  </div>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

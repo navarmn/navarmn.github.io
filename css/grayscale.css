@@ -6,7 +6,7 @@
 #mainNav {
   min-height: 56px;
   background-color: #fff;
-  -webkit-animation-delay: 7s;
+  -webkit-animation-delay: 1s;
 
 }
 
@@ -14,7 +14,7 @@
   font-size: 80%;
   padding: 0.75rem;
   color: #64a19d;
-  border: 1px solid #64a19d;
+  /* border: 1px solid #64a19d; */
 }
 
 #mainNav .navbar-toggler:focus {
@@ -44,7 +44,7 @@
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    /*transition: background-color 0.3s ease-in-out;*/
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
@@ -55,7 +55,7 @@
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.65);
     font-size: 115%;
-    text-shadow: -1px 1px black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 1px black, 0 1px black, 1px 0 black, 0 -1px black; */
     /*text-shadow: -1px 1px 8px black;*/
 
   }
@@ -102,7 +102,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 55%, #161616 100%), url("../img/business-computer-connection-450035.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 100%, #161616 100%), url("../img/Business_03.jpg");
   /*background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 55%, #161616 100%), url("../img/foto_Navar.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,8 @@
   /*font-family: 'Varela Round';*/
   font-family: "Yantramanav";
   /*font-weight: 100;*/
-  /*font-size: 2.5rem;*/
+  /* font-size: 1rem; */
+  font-size: 50%;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));*/
@@ -125,12 +126,18 @@
   font-stretch: ultra-condensed;
   font-weight: bold;
   font-stretch: expanded;
-  -webkit-animation-duration: 1s;
+  /* -webkit-animation-duration: 1s; */
 }
 
 #bgPhoto{
-  -webkit-animation-duration: 1.8s;
+  /*-webkit-animation-duration: 1.8s;*/
 }
+
+#bgPhoto .container{
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+
 
 #introH1{
   font-size: 350%;
@@ -139,20 +146,21 @@
   /*letter-spacing: 6px;*/
   letter-spacing: 100%;
   line-height: normal;
-  -webkit-animation-delay: 1.3s;
-  -webkit-animation-duration: 3s;
+  /*-webkit-animation-delay: 1.3s;
+  -webkit-animation-duration: 3s;*/
 
 }
 
 #introH2{
   font-size: 250%;
-  -webkit-animation-delay: 3.7s;
-  -webkit-animation-duration: 3s;
+  /*-webkit-animation-delay: 3.7s;
+  -webkit-animation-duration: 3s;*/
 }
 
 #getStarted{
   font-family: "Yantramanav";
-  -webkit-animation-delay: 7s;
+  /*-webkit-animation-delay: 3s;*/
+  -webkit-animation-delay: 1s
 
 }
 
@@ -167,11 +175,30 @@
 
 }
 
+#education_descriptions{
+  padding-left: 10rem;
+}
+
+#education_Descriptions{
+  line-height: 125%;
+  /* border: 1px solid black; */
+}
+
+#lapisco_img{
+  max-width: 60px;
+  height: auto;
+}
+
+#introPhoto{
+  max-width: 170px;
+  height: auto;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 0%, #161616 0%));
+}
+
 
 .masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
-
+  /*max-width: 20rem;*/
+  /*font-size: 1rem;*/
 }
 
 @media (min-width: 768px) {
@@ -188,14 +215,19 @@
   }
   .masthead h1 {
     /*font-size: 6.5rem*/
-    font-size: 250%;
-    line-height: 6.5rem;
-    /*letter-spacing: 0.8rem;*/
-    letter-spacing: 100 ;
+    font-size: 100%;
+    /*line-height: 6.5rem;*/
+    /* letter-spacing: 0.8rem; */
+    letter-spacing: 2px;
+    /*text-transform: full-width;*/
   }
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    /*max-width: 30rem;*/
+    /*font-size: 1.25rem;*/
+    font-size: 75%;
+    /*line-height: 6.5rem;*/
+    /* letter-spacing: 0.8rem; */
+    letter-spacing: 3px
   }
 }
 
@@ -209,10 +241,24 @@
   border: 0;
 }
 
+/*.btn-light:active{
+  background-color: black !important;
+  color: white !important;
+}*/
+
+.masthead .cardIntro{
+  color: #4f837f;
+  font-size: 200%;
+  letter-spacing: 25px;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0.25s;
+
+}
+
 .btn-outline-primary {
   color: #64a19d;
   border: solid #64a19d 1px;
-  font-size: 90%;
+  font-size: 100%;
 }
 
 .btn-outline-primary:hover {
@@ -227,11 +273,12 @@
 }
 
 .btn-outline-primary:active {
+  /*background-color: #4f837f !important;*/
   background-color: #467370 !important;
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 8rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -240,7 +287,9 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  /*padding: 5rem 0;*/
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .projects-section .featured-text {
@@ -291,6 +340,10 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  /* background: linear-gradient(to bottom, rgba(255,255,255, 0.9), rgba(0,0,0,0.5)), url("../img/letter_01_optm.jpg"); */
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 100%, #161616 100%), url("../img/letter_02_optm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-section .card {
@@ -333,6 +386,11 @@
   color: #fff;
 }
 
+#footer_Name{
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
@@ -369,8 +427,17 @@ footer {
 
 
 
+#contact_email{
+  font-size: 150%;
+}
 
 
+#container-background{
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 100%, #161616 100%), url("../img/letter_02_optm.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+}
 
 
 
